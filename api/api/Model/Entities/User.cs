@@ -10,7 +10,7 @@ namespace api.Models.Entities
         public int Id { get; set; }
         public int UserId { get; set; }
         public string UserName { get; set; }
-        public int UserContactNumber { get; set; }
+        public string UserContactNumber { get; set; }
         // public string UserBio { get; set; }
         public string UserLocation { get; set; }
         // public string UserProfilePicture { get; set; }

@@ -1,2 +1,42 @@
-Just a Side Project
-Trying to complete it asap :)
+# PlaySlot - Turf Booking System
+
+A side project for managing turf bookings and user information.
+
+## Technology Stack
+
+- .NET 8.0
+- Entity Framework Core 8.0.0
+- MySQL Database (Pomelo provider)
+- Swagger/OpenAPI
+
+## Features
+
+- Turf Management (CRUD operations)
+- User Management (CRUD operations)
+- RESTful API architecture
+- Repository pattern implementation
+- Service layer for business logic
+
+## Getting Started
+
+### Prerequisites
+
+- .NET 8.0 SDK
+- MySQL Server
+
+### Setup
+
+1. Update the connection string in `appsettings.json`
+2. Run migrations:
+   ```bash
+   dotnet ef database update
+   ```
+3. Start the application:
+   ```bash
+   dotnet run
+   ```
+4. Access Swagger UI at `http://localhost:5046/swagger`
+
+## Project Status
+
+Currently under active development. Trying to complete it ASAP! 🚀

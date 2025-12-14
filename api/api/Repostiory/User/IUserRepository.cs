@@ -9,7 +9,7 @@ namespace api.Repositories
 {
     public interface IUserRepository
     {
-        Task<List<User>> GetAllUserAsync();
+        Task<List<User?>> GetAllUserAsync();
         Task<User?> GetUserByIdAsync(int id);
         Task<User?> UpdateUserAsync(int id);
         Task<bool> DeleteUserByIdAsync(int id);
