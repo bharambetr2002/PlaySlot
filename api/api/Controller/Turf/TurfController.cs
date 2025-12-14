@@ -1,11 +1,11 @@
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
-using api.DTOs.Turf;
+using api.Models.DTOs.Turf;
 using api.Models.Entities;
 using api.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace api.Controllers.TurfController
+namespace api.Controllers
 {
     [ApiController]
     [Route("api/turfs")]

@@ -1,12 +1,13 @@
 using System.Diagnostics.Eventing.Reader;
 using System.Threading.Tasks;
-using api.DTOs.Turf;
+using api.Models.DTOs.Turf;
 using api.Models.Entities;
 using api.Repositories;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
 
 namespace api.Services
+
 {
     public class TurfService
     {

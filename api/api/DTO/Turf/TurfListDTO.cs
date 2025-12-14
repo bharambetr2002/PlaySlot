@@ -1,6 +1,6 @@
 using System;
 
-namespace api.DTOs.Turf
+namespace api.Models.DTOs.Turf
 {
     public class CreateTurfDto
     {

@@ -27,7 +27,8 @@ public static class Program
         // DJ
         builder.Services.AddScoped<ITurfRepository, TurfRepository>();
         builder.Services.AddScoped<TurfService>();
-
+        builder.Services.AddScoped<IUserRepository, UserRepository>();
+        builder.Services.AddScoped<UserService>();
 
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
@@ -43,7 +44,7 @@ public static class Program
         }
 
         app.UseAuthorization();
-        
+
         app.MapControllers();
 
         app.Run();
